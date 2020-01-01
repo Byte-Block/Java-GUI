@@ -1,5 +1,3 @@
-package zadatak12_1;
-
 import java.awt.*;
 import java.awt.event.*;
 
