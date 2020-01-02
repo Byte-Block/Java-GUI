@@ -10,10 +10,9 @@ public class DontPanick extends Frame {
 		super("Don't Panick!");
 		setLocation(550, 300);
 		setSize(300, 200);
-		// setBounds(550, 300, 300, 200);
 		addWindowListener(new WindowEvents());
 		setLayout(null);
-		add(new Label("Don't panick, and just push the button!")).setBounds(45, 50, 209, 60);
+		add(new Label("Don't panick, and just push the button!")).setBounds(45, 50, 210, 60);
 		add(dontPanick = new Button("DONT PANICK!")).setBounds(100, 130, 100, 40);
 		dontPanick.setBackground(Color.RED);
 		dontPanick.setForeground(Color.YELLOW);
