@@ -2,22 +2,22 @@ import java.awt.*;
 import java.awt.event.*;
 
 @SuppressWarnings("serial")
-public class DontPanick extends Frame {
+public class DontPanic extends Frame {
 
-	private Button dontPanick;
+	private Button dontPanic;
 
-	private DontPanick() {
-		super("Don't Panick!");
+	private DontPanic() {
+		super("Don't Panic!");
 		setLocation(550, 300);
 		setSize(300, 200);
 		addWindowListener(new WindowEvents());
 		setLayout(null);
-		add(new Label("Don't panick, and just push the button!")).setBounds(45, 50, 210, 60);
-		add(dontPanick = new Button("DONT PANICK!")).setBounds(100, 130, 100, 40);
-		dontPanick.setBackground(Color.RED);
-		dontPanick.setForeground(Color.YELLOW);
-		dontPanick.addActionListener(new DontPanickAction());
-		dontPanick.addMouseListener(new DontPanickEventsMouse());
+		add(new Label("Don't panic, and just push the button!")).setBounds(45, 50, 210, 60);
+		add(dontPanic = new Button("DONT PANIC!")).setBounds(100, 130, 100, 40);
+		dontPanic.setBackground(Color.RED);
+		dontPanic.setForeground(Color.YELLOW);
+		dontPanic.addActionListener(new DontPanicAction());
+		dontPanic.addMouseListener(new DontPanicEventsMouse());
 		setVisible(true);
 	}
 
@@ -47,7 +47,7 @@ public class DontPanick extends Frame {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		new DontPanick();
+		new DontPanic();
 	}
 
 }
