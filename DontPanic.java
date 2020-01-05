@@ -16,6 +16,7 @@ public class DontPanic extends Frame {
 		add(dontPanic = new Button("DONT PANIC!")).setBounds(100, 130, 100, 40);
 		dontPanic.setBackground(Color.RED);
 		dontPanic.setForeground(Color.YELLOW);
+		dontPanic.setFont(new Font("Courier", Font.BOLD + Font.ITALIC, 12));
 		dontPanic.addActionListener(new DontPanicAction());
 		dontPanic.addMouseListener(new DontPanicEventsMouse());
 		setVisible(true);
